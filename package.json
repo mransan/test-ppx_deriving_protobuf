@@ -1,0 +1,13 @@
+{
+  "name": "test-ppx_deriving_protobuf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bs-platform": "^1.5.2",
+    "bs-ppx_deriving_protobuf": "^0.0.2"
+  },
+  "scripts": {
+    "build": "bsb"
+  }
+}
