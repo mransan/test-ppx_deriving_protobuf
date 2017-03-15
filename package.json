@@ -9,6 +9,7 @@
     "bs-platform" : "^1.5.x"
   },
   "scripts": {
-    "build": "bsb -make-world"
+    "build": "bsb -make-world",
+    "start": "yarn build && node lib/js/src"
   }
 }
