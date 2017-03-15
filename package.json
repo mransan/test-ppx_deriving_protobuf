@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "bs-platform": "^1.5.2",
-    "bs-ppx_deriving_protobuf": "^0.0.2"
+    "bs-ppx_deriving_protobuf": "^2.5.x",
+    "bs-ocaml-protoc": "^0.0.x",
+    "bs-platform" : "^1.5.x"
   },
   "scripts": {
-    "build": "bsb"
+    "build": "bsb -make-world"
   }
 }

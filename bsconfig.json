@@ -1,5 +1,5 @@
 {
   "name": "test",
   "sources": [ "src" ], 
-  "bs-dependencies": [ "bs-ppx_deriving_protobuf"]
+  "bs-dependencies": [ "bs-ppx_deriving_protobuf", "bs-ocaml-protoc"]
 }
