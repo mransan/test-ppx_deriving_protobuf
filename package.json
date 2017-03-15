@@ -10,6 +10,6 @@
   },
   "scripts": {
     "build": "bsb -make-world",
-    "start": "yarn build && node lib/js/src"
+    "start": "yarn build && node lib/js/src/pbrt_json_bs"
   }
 }
